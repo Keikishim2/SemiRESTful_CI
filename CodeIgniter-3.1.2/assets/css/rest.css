@@ -1,0 +1,26 @@
+body{
+    background-image: url('/assets/images/1.jpg');
+    background-size: cover;
+}
+.wrapper{
+    border: 3px solid black;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    font-weight: bolder;
+}
+th{
+    background-color: aqua;
+}
+tr{
+    background-color: turquoise;
+}
+tr:nth-child(odd){
+    background-color: darkcyan;
+}
+input{
+    background-color: skyblue;
+}
